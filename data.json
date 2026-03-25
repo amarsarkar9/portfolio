@@ -1,0 +1,116 @@
+{
+  "meta": {
+    "name": "Amar Sarkar",
+    "title": "DevOps / SRE Engineer",
+    "tagline": "I build reliable, scalable infrastructure and automate everything I can.",
+    "email": "amarsarkar9@gmail.com",
+    "github": "https://github.com/amarsarkar9",
+    "linkedin": "https://linkedin.com/in/amarsarkar",
+    "twitter": "",
+    "resume": "/AmarSarkar.pdf",
+    "avatar": "https://avatars.githubusercontent.com/u/64923555?s=400&u=d3d27effa6c9a59651a1143843164b1dc5f6c273&v=4",
+    "location": "Kolkata, India",
+    "available": true
+  },
+  "about": {
+    "headline": "Building scalable infrastructure and observability systems.",
+    "paragraphs": [
+      "I'm a DevOps and SRE Engineer with 4+ years of experience managing cloud infrastructure, Kubernetes platforms, and observability systems. I enjoy solving complex production issues and building automation that improves reliability and efficiency.",
+      "My work focuses on infrastructure as code, monitoring at scale, and optimizing distributed systems. I’m particularly interested in observability, system performance, and cloud-native architectures."
+    ]
+  },
+  "skills": [
+    {
+      "category": "Cloud & Infrastructure",
+      "items": ["AWS", "Azure", "VMware ESXi", "Linux", "Windows Server"]
+    },
+    {
+      "category": "Containers & Orchestration",
+      "items": ["Docker", "Kubernetes (EKS, AKS)", "Helm"]
+    },
+    {
+      "category": "Infrastructure as Code",
+      "items": ["Terraform", "Ansible"]
+    },
+    {
+      "category": "CI/CD",
+      "items": ["GitLab CI", "Jenkins", "GitHub Actions", "TeamCity"]
+    },
+    {
+      "category": "Observability",
+      "items": ["Prometheus", "Grafana", "ELK Stack", "VictoriaMetrics"]
+    },
+    {
+      "category": "Scripting & Tools",
+      "items": ["Python", "Bash", "PowerShell", "Git", "Postman"]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Tenforce",
+      "role": "DevOps / SRE Engineer",
+      "period": "Jan 2024 – Present",
+      "location": "Ahmedabad, India",
+      "description": "Led infrastructure migration and observability improvements across production environments. Managed 500+ workloads with zero downtime and migrated a 3TB monitoring stack, improving system visibility and reducing incident response time by 40%.",
+      "tags": ["Kubernetes", "Terraform", "Prometheus", "Grafana", "ELK", "VictoriaMetrics"]
+    },
+    {
+      "company": "Aniccadata Science Solution",
+      "role": "DevOps Engineer",
+      "period": "Jan 2022 – Dec 2023",
+      "location": "Bengaluru, India",
+      "description": "Built CI/CD pipelines and deployed containerized applications on Kubernetes (EKS/AKS). Improved uptime to 99.95% through monitoring, automation, and infrastructure optimization.",
+      "tags": ["AWS", "Docker", "Kubernetes", "Jenkins", "Terraform"]
+    }
+  ],
+  "projects": [
+  {
+    "title": "PostgreSQL High Availability on Kubernetes",
+    "description": "Designed and deployed a PostgreSQL HA cluster across two Kubernetes clusters using Helm, ensuring high availability, failover, and data consistency for production workloads.",
+    "tags": ["Kubernetes", "PostgreSQL", "Helm", "DevOps"],
+    "github": "",
+    "live": null,
+    "featured": true
+  },
+  {
+    "title": "End-to-End EKS Deployment Pipeline",
+    "description": "Built complete CI/CD pipeline from development to production using AWS EKS, GitHub Actions, and Argo CD with GitOps approach, enabling automated, reliable, and scalable deployments.",
+    "tags": ["AWS EKS", "GitHub Actions", "Argo CD", "CI/CD", "GitOps"],
+    "github": "",
+    "live": null,
+    "featured": true
+  },
+  {
+    "title": "Monitoring Stack Migration",
+    "description": "Migrated a 3TB ELK, Prometheus, and Grafana stack from cloud to on-prem infrastructure, improving performance, reducing costs, and enhancing observability.",
+    "tags": ["Prometheus", "Grafana", "ELK", "Linux", "Bash", "Docker Compose"],
+    "github": "",
+    "live": null,
+    "featured": true
+  },
+  {
+    "title": "Infrastructure Automation with Terraform",
+    "description": "Developed Terraform modules to provision VMware ESXi VMs from templates, reducing setup time from 3 hours to under 1 hour.",
+    "tags": ["Terraform", "VMware", "IaC"],
+    "github": "",
+    "live": null,
+    "featured": false
+  },
+  {
+    "title": "Centralized Monitoring Deployment",
+    "description": "Built Ansible-based automation to deploy Grafana dashboards, Windows Exporter, and Filebeat with GitLab CI for consistent observability setup.",
+    "tags": ["Ansible", "Grafana", "CI/CD"],
+    "github": "",
+    "live": null,
+    "featured": false
+  },
+  {
+    "title": "Redis Automation Tool",
+    "description": "Automated Redis deployment using Ansible for one-click provisioning across environments, improving consistency and reducing manual errors.",
+    "tags": ["Redis", "Ansible", "Automation"],
+    "github": "",
+    "live": null,
+    "featured": true
+  }
+]
+}
