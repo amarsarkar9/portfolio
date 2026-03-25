@@ -216,6 +216,7 @@ function buildContact(data) {
     <h2 class="section-heading contact-heading">Let's work together.</h2>
     <p class="contact-sub">Got a project in mind? Let's talk. I'm always open to new opportunities and interesting conversations.</p>
     <a href="mailto:${meta.email}" class="btn btn-primary btn-large">${icon.mail} Say hello</a>
+    <a href="tel:+918710009174" class="btn btn-ghost btn-large"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.15 13a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.06 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21 16.92z"/></svg> +91 87100 09174</a>
     <div class="social-links">
       ${meta.github   ? `<a href="${meta.github}"   target="_blank" rel="noopener" aria-label="GitHub">${icon.github}</a>` : ''}
       ${meta.linkedin ? `<a href="${meta.linkedin}" target="_blank" rel="noopener" aria-label="LinkedIn">${icon.linkedin}</a>` : ''}
